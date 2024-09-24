@@ -1,0 +1,50 @@
+.error-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .error-page-content {
+    max-width: 600px;
+  }
+  
+  .error-code {
+    font-size: 9rem;
+    font-weight: bold;
+    color: #f56565; /* Equivalent to Tailwind's text-red-500 */
+    margin-bottom: 10px;
+  }
+  
+  .error-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748; /* Equivalent to Tailwind's text-gray-800 */
+    margin-bottom: 16px;
+  }
+  
+  .error-message {
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    color: #718096; /* Equivalent to Tailwind's text-gray-600 */
+    margin-bottom: 24px;
+  }
+  
+  .error-link {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: white;
+    background-color: #4299e1; /* Equivalent to Tailwind's bg-blue-500 */
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .error-link:hover {
+    background-color: #2b6cb0; /* Equivalent to Tailwind's hover:bg-blue-600 */
+  }
